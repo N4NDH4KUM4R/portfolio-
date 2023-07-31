@@ -77,7 +77,12 @@ img {
   height: auto;
   display: block;
 }
-
+input[type="text"],
+input[type="email"],
+textarea::placeholder{
+  font-family:"Poppins";
+  font-size: 11px;
+}
 /* CUSTOM CSS CLASSES */
 
 /* LAYOUT */
@@ -242,6 +247,14 @@ img {
   background-color: var(--first-color);
 }
 
+.section-p {
+  position: relative;
+  font-size: 15px;
+  color: #000;
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
 /* ABOUT SECTION */
 
 .about_container {
@@ -310,20 +323,42 @@ img {
 }
 
 .skill_html {
-  width: 95%;
+  width: 85%;
 }
 
 .skill_css {
-  width: 85%;
+  width: 80%;
 }
 
 .skill_js {
-  width: 75%;
+  width: 70%;
 }
 
 .skill_ui {
-  width: 85%;
+  width: 20%;
 }
+
+.skill_react {
+  width: 70%;
+}
+
+.skill_node {
+  width: 70%;
+}
+
+.skill_express {
+  width: 70%;
+}
+
+.skill_git {
+  width: 50%;
+}
+.ex{
+  font-family: "Poppins";
+  padding-bottom: 8px;
+}
+.skill_mongo {
+  width: 70%;}
 
 /* WORK */
 
